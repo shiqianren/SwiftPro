@@ -1,0 +1,44 @@
+PODS:
+  - Alamofire (4.2.0)
+  - EZSwiftExtensions (1.7)
+  - HandyJSON (1.2.1)
+  - Kingfisher (3.2.1)
+  - ReachabilitySwift (3)
+  - SnapKit (3.0.2)
+  - SVProgressHUD (2.0.4)
+
+DEPENDENCIES:
+  - Alamofire (from `https://github.com/Alamofire/Alamofire`)
+  - EZSwiftExtensions (from `https://github.com/goktugyil/EZSwiftExtensions.git`)
+  - HandyJSON
+  - Kingfisher (~> 3.0)
+  - ReachabilitySwift (~> 3)
+  - SnapKit (~> 3.0.2)
+  - SVProgressHUD (~> 2.0.1)
+
+EXTERNAL SOURCES:
+  Alamofire:
+    :git: https://github.com/Alamofire/Alamofire
+  EZSwiftExtensions:
+    :git: https://github.com/goktugyil/EZSwiftExtensions.git
+
+CHECKOUT OPTIONS:
+  Alamofire:
+    :commit: 44d7641877a54510aac3d168667b7f94aee48ddf
+    :git: https://github.com/Alamofire/Alamofire
+  EZSwiftExtensions:
+    :commit: 2560abeb119e2bd0ea532f0ee79954ccc3bf0aa2
+    :git: https://github.com/goktugyil/EZSwiftExtensions.git
+
+SPEC CHECKSUMS:
+  Alamofire: 26d8877ec03b4e6e6cbfbf7c03924b4844a2d453
+  EZSwiftExtensions: 4afef248066a036903d8496bf07bc355b22ce766
+  HandyJSON: c20190bca46cc6e7fb87073df63ecbe90770a7b0
+  Kingfisher: 64ef28c6d3d6f344e3ae2d7f5c9da80439505d99
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  SnapKit: 2e456761aa92d4d4067a7a5594c18769d451a8ad
+  SVProgressHUD: bfde85ed6c573ea802b9cb37894ed9b629034f1b
+
+PODFILE CHECKSUM: cc92d6c4428aca38f0881c95ba5737bcd7a06ea5
+
+COCOAPODS: 1.0.0
