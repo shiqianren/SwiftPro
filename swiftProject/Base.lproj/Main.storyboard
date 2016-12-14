@@ -199,10 +199,18 @@
                                     <segue destination="MVf-Zb-tyF" kind="push" id="aub-ys-Kz4"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Nl-eZ-7ig">
+                                <state key="normal" title="test数据"/>
+                                <connections>
+                                    <action selector="GetAllCity:" destination="qlg-0Y-zXT" eventType="touchUpInside" id="8P7-hI-FEg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="oTP-0g-LQg" firstAttribute="top" secondItem="7Nl-eZ-7ig" secondAttribute="bottom" constant="42.5" id="D3N-la-8oX"/>
                             <constraint firstItem="oTP-0g-LQg" firstAttribute="centerY" secondItem="umB-78-C4x" secondAttribute="centerY" id="NEQ-Dn-zfh"/>
+                            <constraint firstItem="7Nl-eZ-7ig" firstAttribute="centerX" secondItem="oTP-0g-LQg" secondAttribute="centerX" id="cf2-NS-q3W"/>
                             <constraint firstItem="oTP-0g-LQg" firstAttribute="centerX" secondItem="umB-78-C4x" secondAttribute="centerX" id="ofD-kj-asm"/>
                         </constraints>
                     </view>
@@ -210,7 +218,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4n1-y3-9rD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1470" y="-778"/>
+            <point key="canvasLocation" x="1469.5999999999999" y="-778.56071964017997"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="p5I-Ue-GZN">

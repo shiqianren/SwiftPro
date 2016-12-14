@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		4DD8C7E006EAB672726B8E27 /* Pods_swiftProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F92EA4C265C03327C5347040 /* Pods_swiftProject.framework */; };
+		841693481E011C16007DB830 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841693471E011C16007DB830 /* WebService.swift */; };
+		8416934A1E01341B007DB830 /* URLConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841693491E01341B007DB830 /* URLConstant.swift */; };
+		8416934C1E013CC5007DB830 /* WebService+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8416934B1E013CC5007DB830 /* WebService+Category.swift */; };
+		844EFCF21E0142AD00DB8FC3 /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844EFCF11E0142AD00DB8FC3 /* CityModel.swift */; };
 		84558C9B1DFFD743003D8292 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84558C9A1DFFD743003D8292 /* AppDelegate.swift */; };
 		84558C9D1DFFD743003D8292 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84558C9C1DFFD743003D8292 /* ViewController.swift */; };
 		84558CA01DFFD743003D8292 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84558C9E1DFFD743003D8292 /* Main.storyboard */; };
@@ -38,6 +42,10 @@
 
 /* Begin PBXFileReference section */
 		840B579D1E00E57C00F71A30 /* swiftPro-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swiftPro-PrefixHeader.pch"; sourceTree = "<group>"; };
+		841693471E011C16007DB830 /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		841693491E01341B007DB830 /* URLConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLConstant.swift; sourceTree = "<group>"; };
+		8416934B1E013CC5007DB830 /* WebService+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WebService+Category.swift"; sourceTree = "<group>"; };
+		844EFCF11E0142AD00DB8FC3 /* CityModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
 		84558C971DFFD743003D8292 /* swiftProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84558C9A1DFFD743003D8292 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84558C9C1DFFD743003D8292 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -110,6 +118,17 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
+		841693461E011C03007DB830 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				841693471E011C16007DB830 /* WebService.swift */,
+				841693491E01341B007DB830 /* URLConstant.swift */,
+				8416934B1E013CC5007DB830 /* WebService+Category.swift */,
+				844EFCF11E0142AD00DB8FC3 /* CityModel.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
 		84558C8E1DFFD743003D8292 = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +154,7 @@
 		84558C991DFFD743003D8292 /* swiftProject */ = {
 			isa = PBXGroup;
 			children = (
+				841693461E011C03007DB830 /* WebService */,
 				840B579E1E00E64600F71A30 /* Common */,
 				840B579D1E00E57C00F71A30 /* swiftPro-PrefixHeader.pch */,
 				84558C9A1DFFD743003D8292 /* AppDelegate.swift */,
@@ -356,7 +376,11 @@
 				84558C9D1DFFD743003D8292 /* ViewController.swift in Sources */,
 				84558C9B1DFFD743003D8292 /* AppDelegate.swift in Sources */,
 				84B1A6BE1E010CB90023B3C4 /* UIViewController.swift in Sources */,
+				841693481E011C16007DB830 /* WebService.swift in Sources */,
+				844EFCF21E0142AD00DB8FC3 /* CityModel.swift in Sources */,
 				84B1A6B81E00E6BB0023B3C4 /* BaseViewController.swift in Sources */,
+				8416934A1E01341B007DB830 /* URLConstant.swift in Sources */,
+				8416934C1E013CC5007DB830 /* WebService+Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

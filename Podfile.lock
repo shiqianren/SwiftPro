@@ -27,7 +27,7 @@ CHECKOUT OPTIONS:
     :commit: 44d7641877a54510aac3d168667b7f94aee48ddf
     :git: https://github.com/Alamofire/Alamofire
   EZSwiftExtensions:
-    :commit: 2560abeb119e2bd0ea532f0ee79954ccc3bf0aa2
+    :commit: 4ca56105e0f45752500c6e3b376b23fa2427f2a8
     :git: https://github.com/goktugyil/EZSwiftExtensions.git
 
 SPEC CHECKSUMS:

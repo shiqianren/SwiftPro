@@ -23,5 +23,19 @@ class ViewController: BaseViewController {
     }
 
 
+    @IBAction func GetAllCity(_ sender: UIButton) {
+//        WebService.webServiceRequest.alamostFireRequest(URLString: URLConstant.test.getcity.suffix, parameters: nil)
+        WebService.webServiceRequest.getAllcity(success: { (data) in
+            
+            }, fail: { faileMessage in
+                
+                
+             
+        
+        })
+        
+        
+        
+    }
 }
 
