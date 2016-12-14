@@ -1,0 +1,10 @@
+//
+//  swiftPro-PrefixHeader.pch
+//  swiftProject
+//
+//  Created by shiqianren on 16/12/13.
+//  Copyright © 2016年 shiqianren. All rights reserved.
+//
+
+
+#import <UIKit/UIKit.h>
