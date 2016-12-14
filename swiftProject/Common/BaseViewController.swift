@@ -10,8 +10,21 @@ import Foundation
 
 class BaseViewController: UIViewController {
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        setNavbarStyle()
+    }
     
+    func setNavbarStyle() {
+     //导航栏样式
+        self.removeBackButtonText()
+        self.setNavigationBackButtonColor(color: UIColor.white)
+
+    }
     
     
 }
